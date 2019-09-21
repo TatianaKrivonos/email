@@ -28,6 +28,6 @@ gulp.task('inline', function () {
 
 //WATCH
 gulp.task('default',function() {
-    gulp.watch('./scss/**/*.scss',['styles']);
-    gulp.watch('./templates/**/*.html',['inky']);
+    gulp.watch('./scss/**/*.scss',gulp.series('styles'));
+    gulp.watch('./templates/**/*.html',gulp.series('inky'));
 });

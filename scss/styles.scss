@@ -1,6 +1,53 @@
 @import "foundation";
 
-//colors:
-$yellow: #FBF18E;
-$accent: #F61067;
-$grey: #666666;
+.no-bg {
+	background: transparent !important;
+}
+
+.tiny-text {
+	font-size: 12px;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.basic-link {
+	text-decoration: underline;
+	color: #000000;
+}
+.main-sub-header {
+	margin: 0;
+	color: $grey;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.main-header {
+	margin: 0;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.main-body-p {
+	color: $grey;
+	line-height: (22/14);
+}
+
+.decorative-line {
+	background: $grey;
+	height: 2px;
+}
+
+.custom-pb {
+	padding-bottom: 10px !important;
+}
+
+.item-name {
+	text-transform: uppercase;
+	color: $accent;
+}
+
+.item-price {
+	color: $grey;
+}

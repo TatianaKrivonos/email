@@ -68,15 +68,15 @@ table, tr, td {
 
 html {
   min-height: 100%;
-  background: #f3f3f3; }
+  background: #FBF18E; }
 
 table.body {
-  background: #f3f3f3;
+  background: #FBF18E;
   height: 100%;
   width: 100%; }
 
 table.container {
-  background: #fefefe;
+  background: #ffffff;
   width: 580px;
   margin: 0 auto;
   Margin: 0 auto;
@@ -780,7 +780,7 @@ p,
 td,
 th,
 a {
-  color: #0a0a0a;
+  color: #000000;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   padding: 0;
@@ -798,18 +798,18 @@ h6 {
   color: inherit;
   word-wrap: normal;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  margin-bottom: 10px;
-  Margin-bottom: 10px; }
+  font-weight: bold;
+  margin-bottom: 0;
+  Margin-bottom: 0; }
 
 h1 {
-  font-size: 34px; }
+  font-size: 22px; }
 
 h2 {
-  font-size: 30px; }
+  font-size: 16px; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 14px; }
 
 h4 {
   font-size: 24px; }
@@ -848,14 +848,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #2199e8;
+  color: #F61067;
   text-decoration: none; }
   a:hover {
-    color: #147dc2; }
+    color: #cb0852; }
   a:active {
-    color: #147dc2; }
+    color: #cb0852; }
   a:visited {
-    color: #2199e8; }
+    color: #F61067; }
 
 h1 a,
 h1 a:visited,
@@ -869,7 +869,7 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #2199e8; }
+  color: #F61067; }
 
 pre {
   background: #f3f3f3;
@@ -908,23 +908,24 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #fefefe;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    color: #F61067;
+    background: transparent;
+    border: 2px solid transparent; }
     table.button table td.radius {
-      border-radius: 3px; }
+      border-radius: 0; }
     table.button table td.rounded {
       border-radius: 500px; }
     table.button table td a {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 16px;
-      font-weight: bold;
-      color: #fefefe;
+      font-weight: normal;
+      color: #F61067;
       text-decoration: none;
       display: inline-block;
-      padding: 8px 16px 8px 16px;
-      border: 0px solid #2199e8;
-      border-radius: 3px; }
+      padding: 12px 35px 12px 35px;
+      border: 2px solid #F61067;
+      border-radius: 0;
+      text-transform: uppercase; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
@@ -938,7 +939,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #fefefe; }
+  color: #F61067; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -973,38 +974,38 @@ table.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
-  color: #fefefe; }
+  background: rgba(0, 0, 0, 0);
+  color: #F61067; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0px solid #147dc2; }
+  border: 0px solid rgba(0, 0, 0, 0); }
 
 table.button.secondary table td {
   background: #777777;
-  color: #fefefe;
+  color: #F61067;
   border: 2px solid #777777; }
 
 table.button.secondary table a {
-  color: #fefefe;
+  color: #F61067;
   border: 0px solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #fefefe; }
+  color: #F61067; }
 
 table.button.secondary:hover table a {
   border: 0px solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #fefefe; }
+  color: #F61067; }
 
 table.button.secondary:active table td a {
-  color: #fefefe; }
+  color: #F61067; }
 
 table.button.secondary table td a:visited {
-  color: #fefefe; }
+  color: #F61067; }
 
 table.button.success table td {
   background: #3adb76;
@@ -1038,33 +1039,33 @@ table.callout {
 
 th.callout-inner {
   width: 100%;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #cccccc;
   padding: 10px;
-  background: #fefefe; }
+  background: #ffffff; }
   th.callout-inner.primary {
-    background: #def0fc;
+    background: #fedbe8;
     border: 1px solid #444444;
-    color: #0a0a0a; }
+    color: #000000; }
   th.callout-inner.secondary {
     background: #ebebeb;
     border: 1px solid #444444;
-    color: #0a0a0a; }
+    color: #000000; }
   th.callout-inner.success {
     background: #e1faea;
     border: 1px solid #1b9448;
-    color: #fefefe; }
+    color: #ffffff; }
   th.callout-inner.warning {
     background: #fff3d9;
     border: 1px solid #996800;
-    color: #fefefe; }
+    color: #ffffff; }
   th.callout-inner.alert {
     background: #fce6e2;
     border: 1px solid #b42912;
-    color: #fefefe; }
+    color: #ffffff; }
 
 .thumbnail {
-  border: solid 4px #fefefe;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  border: solid 4px #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   display: inline-block;
   line-height: 0;
   max-width: 100%;
@@ -1072,7 +1073,7 @@ th.callout-inner {
   border-radius: 3px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(246, 16, 103, 0.5); }
 
 table.menu {
   width: 580px; }
@@ -1082,7 +1083,7 @@ table.menu {
     padding-right: 10px; }
     table.menu td.menu-item a,
     table.menu th.menu-item a {
-      color: #2199e8; }
+      color: #F61067; }
 
 table.menu.vertical td.menu-item,
 table.menu.vertical th.menu-item {
@@ -1380,3 +1381,45 @@ body.outlook p {
 .header .container td {
   padding-top: 16px;
   padding-bottom: 16px; }
+
+.no-bg {
+  background: transparent !important; }
+
+.tiny-text {
+  font-size: 12px; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.basic-link {
+  text-decoration: underline;
+  color: #000000; }
+
+.main-sub-header {
+  margin: 0;
+  color: #666666;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.main-header {
+  margin: 0;
+  font-size: 22px;
+  text-transform: uppercase; }
+
+.main-body-p {
+  color: #666666;
+  line-height: 1.57143; }
+
+.decorative-line {
+  background: #666666;
+  height: 2px; }
+
+.custom-pb {
+  padding-bottom: 10px !important; }
+
+.item-name {
+  text-transform: uppercase;
+  color: #F61067; }
+
+.item-price {
+  color: #666666; }

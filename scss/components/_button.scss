@@ -85,8 +85,9 @@ table.button {
         text-decoration: none;
         display: inline-block;
         padding: map-get($button-padding, default);
-        border: 0px solid $button-background;
+        border: 2px solid $accent;
         border-radius: $button-radius;
+        text-transform: uppercase;
       }
     }
   }
